@@ -1,0 +1,110 @@
+html{
+    font-size: 6.25%;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: 72vh;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-image: url(./projetoKitchening/images/bg-body.png);
+}
+
+/* logo e navbar */
+
+.imgLogo{
+    border-radius: 50%;
+    border: 1rem solid black;
+    margin: 1% 0% 3% 50%;
+}
+
+.navHeader{
+    display: flex;
+    flex-direction:row;
+    margin: 0;
+}
+
+.navHeader a{
+    text-decoration: none;
+    color: white;
+    font-size: 16rem;
+    background-color: #212121;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1% ;
+    margin: 0 0 0 1%;
+}
+
+a{
+    text-align: center;;
+}
+
+/* banner e pratos */
+
+.imagemBanner{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pratosFirstRow, .pratosSecondRow{
+    display: flex;
+    flex-flow: row;
+    margin: 2% 0 0 0;
+}
+
+div{
+    margin: 0px 30px 0px 30px;
+    padding: 0 0 0 2%;
+}
+
+.imgPratos{
+    width: 100%;
+}
+
+div h2{
+    font-weight: 700;
+    font-size: 16rem;
+
+}
+
+div p{
+    font-size: 12rem;
+}
+
+div button{
+    width: 25%;
+    background-color: #212121;
+    padding: 8px;
+    color: white;
+    font-size: 12rem;
+    border: none;
+}
+
+/* footer */
+
+.navFooter{
+    background-color: red;
+    padding: 3.2% 0 0 40.1%;
+    margin: 3% 0 0 0;
+    border-top-right-radius: 18rem;
+    border-top-left-radius: 18rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.navFooter a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 16rem;
+    padding: 5rem 10rem 5rem;
+    border-left: 1rem solid #FFFFFF;
+    line-height: 25%;
+}
+
+nav a:first-child{
+    border: none;
+    margin:0;
+}
