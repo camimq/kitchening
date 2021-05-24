@@ -108,3 +108,89 @@ nav a:first-child{
     border: none;
     margin:0;
 }
+
+@media(max-width: 320px){
+
+    .cabecalhoPrincipal{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .imgLogo{
+        margin: 0 0 5% 0;
+        position: relative;
+        left: 48%;
+    }
+
+    .navHeader{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 26%;
+    }
+
+    .navHeader a:first-child{
+        margin: 0 0 1% 0;
+    }
+
+    .navHeader a{
+        margin: 0 0 1% 0;
+    }
+
+    .navHeader a:last-child{
+        margin: 0 0 10% 0;
+    }
+
+    .imagemBanner{
+        display: none;
+    }
+
+    .pratosFirstRow, .pratosSecondRow{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 21%;
+    }
+
+    .imgPratos{
+        width: 127%;
+        position: relative;
+        left: -21%;
+    }
+
+    .pratosFirstRow h2, .pratosSecondRow h2{
+        position: relative;
+        left: -21%;
+    }
+
+    .pratosFirstRow p, .pratosSecondRow p{
+        position: relative;
+        left: -21%;
+    }
+
+    button{
+        display: none;
+    }
+
+    .navFooter{
+        display: flex;
+        flex-direction: column;
+
+        padding: 0;
+        width: 103vw;
+
+        position: relative;
+        left: 15%;
+
+        border-radius: 0;
+    }
+
+    .navFooter a{
+        border: none;
+        justify-self: center;
+    }
+
+    .navFooter a:first-child{
+        padding: 8% 0 8% 0;
+    }
+}
