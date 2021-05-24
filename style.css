@@ -279,3 +279,64 @@ nav a:first-child{
         padding: 15% 0 20% 0;
     }
 }
+
+@media(max-width:425px){
+    
+    .navHeader{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 20%;
+        margin: 0 0 15% 0;
+    }
+
+    nav a:first-child{
+        margin: 6% 0 1% 1%;
+    }
+
+    .navHeader a {
+        margin: 0 0 1% 1%;
+    }
+
+    .imagemBanner{
+        display: none;
+    }
+    
+    button{
+        display: none;
+    }
+
+    .pratosFirstRow, .pratosSecondRow{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 19%;
+    }
+
+    .pratosSecondRow h2, .pratosFirstRow h2{
+        font-size: 20rem;
+    }
+
+    .pratosFirstRow p, .pratosSecondRow p{
+        font-size: 16rem;
+    }
+
+    .navFooter{
+        flex-direction: column;
+        border-radius: 0;
+        width: 83vw;
+        position: relative;
+        left: 28%;
+        margin:0;
+        padding: 0;
+    }
+
+    .navfooter a:first-child, .navFooter a{
+        border: none;
+        font-size: 18rem;
+    }
+
+    .navFooter a:first-child{
+        padding: 6% 0 7% 0;
+    }
+}
