@@ -282,11 +282,12 @@ nav a:first-child{
 
 @media(max-width:425px){
     
+    .imgLogo{
+        margin: 1% 0% 3% 30%;
+    }
     .navHeader{
         display: flex;
         flex-direction: column;
-        position: relative;
-        left: 20%;
         margin: 0 0 15% 0;
     }
 
@@ -309,8 +310,6 @@ nav a:first-child{
     .pratosFirstRow, .pratosSecondRow{
         display: flex;
         flex-direction: column;
-        position: relative;
-        left: 19%;
     }
 
     .pratosSecondRow h2, .pratosFirstRow h2{
@@ -326,7 +325,7 @@ nav a:first-child{
         border-radius: 0;
         width: 83vw;
         position: relative;
-        left: 28%;
+        left: 9%;
         margin:0;
         padding: 0;
     }
