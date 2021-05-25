@@ -339,3 +339,28 @@ nav a:first-child{
         padding: 6% 0 7% 0;
     }
 }
+
+@media(max-width:768px){
+
+    .imgLogo{
+        margin: 1% 0% 3% 39%;
+    }
+
+    .navHeader{
+        justify-content: space-evenly;
+    }
+
+    .navHeader a{
+        font-size: 11rem;
+        padding: 2%;
+    }
+
+    div button{
+        width: 35%;
+    }
+
+    .navFooter{
+        padding: 4% 0 0 20.1%;
+    }
+
+}
