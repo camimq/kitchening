@@ -364,3 +364,13 @@ nav a:first-child{
     }
 
 }
+
+@media(max-width: 1024px){
+    .imgLogo{
+        margin: 1% 0% 3% 43%;
+    }
+
+    .navFooter{
+        padding: 3% 0 0 29%;
+    }
+}
